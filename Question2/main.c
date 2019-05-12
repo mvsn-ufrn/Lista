@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
     int count; //declaracao de variaveis
 
     printf("The multiples of seven <200 are:\n\n"); //exibir mensagem na tela

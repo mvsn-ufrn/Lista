@@ -22,7 +22,7 @@ int main(){
         }
         if (mult != 0){
 
-            printf("%d x ", fact);
+            printf("(%d^%d) ", fact, mult);
 
 
         }

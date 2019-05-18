@@ -1,21 +1,20 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(){
-    int num, count=0; //declaracao das variaveis
+    int num, count=0; 
 
-    printf("Type a number:\n"); //exibir mensagem na tela
+    printf("Type a number:\n"); 
 
-    scanf("%d", &num); //captar valor e atribuir a variavel num
+    scanf("%d", &num); 
+    //loop to test the condition asked (the smallest positive integer x whose square is greater than a given value L)
+    do{ 
 
-    do{ //faca
+        count++; 
+    } while(count*count<=num); 
 
-        count++; //incrementar variável em 1
+    printf("the smaller number squared > %d is: %d\n", num, count); 
 
-    } while(count*count<=num); //enquanto o quadrado for menor que o numero
-
-    printf("the smaller number squared > %d is: %d\n", num, count); //exibir mensagem na tela
-
-    printf("\n\n\n\n"); //espaco na tela
+    printf("\n\n\n\n"); //blank space
 
     return 0;
 }

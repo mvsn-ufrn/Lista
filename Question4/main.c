@@ -1,26 +1,27 @@
 #include <stdio.h>
 
 int main(){
-    int count, num; //declaracao de variaveis
+    int count, num;
 
-    printf("Type a number:\n"); //exibir mensagem na tela
+    printf("Type a number:\n"); 
 
-    scanf("%d", &num); //captar mensagem e atribuir a variavel num
+    scanf("%d", &num); 
 
-    printf("\n"); //espaco na tela
+    printf("\n"); //blank space
 
-    printf("The divisors of the number are:\n\n"); //exibir mensagem na tela
+    printf("The divisors of the number are:\n\n"); 
 
-    for (count=1;count<=num; count++) { //Repetir a mesma acao de 0 ate o numero pedido de 1 em 1
-
-        if(num%count==0){ //se o resto da divisao por um numero n for 0, executar:
+    for (count=1;count<=num; count++) { //counter that will test which are the divisors of the number 'num'
 
 
-            printf("%d\n", count); //exibir mensagem na tela
+        if(num%count==0){ 
+
+
+            printf("%d\n", count); 
         }
     }
 
-     printf("\n\n\n\n"); //espaco na tela
+     printf("\n\n\n\n"); //blank space
 
     return 0;
 }

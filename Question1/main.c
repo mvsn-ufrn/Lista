@@ -2,26 +2,26 @@
 
 int main(){
 
-int sum, first, last ; //declaracao de variaveis
+int sum, first, last ; 
 
-printf("Type the first number:\n"); //exibir mensagem na tela
+printf("Type the first number:\n"); 
 
-scanf("%d", &first); //captar valor digitado e atribuir a variavel first
+scanf("%d", &first); 
 
-printf("\nType the last number:\n"); //exibir mensagem na tela
+printf("\nType the last number:\n"); 
 
-scanf("%d", &last); //captar valor digitado e atribuir a variavel last
+scanf("%d", &last); 
 
 if(first==0){
 
-    sum = (last*(last+(first+1))/2); //eq.1 define a soma dos n numeros de uma sequencia comecando do 0
+    sum = (last*(last+(first+1))/2); //equation that defines the sum of n number in a sequency starting from n=0
 
 }
 else {
-sum = (last*(last+first)/2); //eq.1 define a soma dos n numeros de uma sequencia
+sum = (last*(last+first)/2); //equation that defines the sum of n number in a sequency starting from n!=0
 
 }
-printf("The sum of n firsts natural numbers is:%d\n\n\n\n", sum); //exibir mensagem na tela
+printf("The sum of n firsts natural numbers is:%d\n\n\n\n", sum); 
 
 return 0;
 }

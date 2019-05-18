@@ -11,7 +11,7 @@ int main(){
 
     }
     count = 0;
-
+    // loop will test if the numbers were typed in the range or not
     while (count < 10){
 
         if (num[count] >= 10 && num[count] <= 50){

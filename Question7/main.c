@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int count; //declaracao de variaveis
+    int count; 
 
-    printf("The table of 4 is:\n"); //exibir mensagem na tela
+    printf("The table of 4 is:\n"); 
 
-    for(count=0; count<=10; count++) //de 0 ate 10 de 1 em 1
+    for(count=0; count<=10; count++) //counter that will print the table of 4
 
-        printf("%d ", count*4); // exibir mensagem na tela
+        printf("%d ", count*4); 
 
-    printf("\n\n\n\n"); //espaco na tela
+    printf("\n\n\n\n"); //blank space
 
 
 

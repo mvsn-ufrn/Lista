@@ -1,28 +1,28 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(){
-    int num, count, div = 0; //declaracao das variaveis
+    int num, count, div = 0; 
 
-    printf("Type a number:\n"); //exibir mensagem na tela
+    printf("Type a number:\n"); 
 
-    scanf("%d", &num); //captar valor digitado e atribuir a variavel num
+    scanf("%d", &num); 
+    //loop that will verify the quantity of divisors of the number and if it is prime or not
+    for (count=1;(count<=num); count++) { 
 
-    for (count=1;(count<=num); count++) { //de 1 ate o numero o contador ira de 1 em 1
+        if(num%count==0) 
 
-        if(num%count==0) //se o o resto da divisao do número por um natural qualquer for 0, executar:
-
-            div++; //div aumentara em 1 seu valor
+            div++; 
     }
 
-    if(div==2) //se div tiver valor 2, executar
+    if(div==2)
 
-        printf("\nThe %d is a prime number!!!", num); //exibir mensagem na tela
+        printf("\nThe %d is a prime number!!!", num);
 
-    else //senao
+    else 
 
-        printf("\nThe %d is not prime number!!!",num); //exibir mensagem na tela
+        printf("\nThe %d is not prime number!!!",num); 
 
-    printf("\n\n\n\n"); //espaco na tela
+    printf("\n\n\n\n"); //blank space
 
     return 0;
 }

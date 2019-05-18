@@ -16,6 +16,7 @@ int main(){
     printf("\n");
 
 */
+     //loop that will define the graph with *
     for (i = 1; i <= array[0]; i = i + 1){
         printf("*");
         }
@@ -39,6 +40,6 @@ int main(){
         printf("*");
 
     }
-    printf("\n\n\n\n");
+    printf("\n\n\n\n"); //blank space
     return 0;
 }

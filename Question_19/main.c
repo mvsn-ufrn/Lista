@@ -14,13 +14,13 @@ int main()
 
     scanf("%d", &max);
 
-    srand( (unsigned)time(NULL));
+    srand( (unsigned)time(NULL)); //defines a random number based on time
 
-    num=(min + 1) + (rand() % (max - min));
+    num=(min + 1) + (rand() % (max - min)); // equation that defines a random number inside the range
 
     printf("A random number between %d and %d is: %d",min, max, num);
 
-    printf("\n\n\n\n");
+    printf("\n\n\n\n"); //blank space
 
     return 0;
 }

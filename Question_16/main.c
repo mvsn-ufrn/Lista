@@ -21,7 +21,7 @@ printf("\nThe reverse of text is: ");
 
 reverse(text);
 
-printf("\n\n\n\n");
+printf("\n\n\n\n"); //blank space
 
 return 0;
 

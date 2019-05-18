@@ -21,6 +21,6 @@ int main(){
     printf ("Type a text:\n");
     gets (text);
     printf("\nThe number of 'a' in text is:%d", count_a(text));
-    printf("\n\n\n\n");
+    printf("\n\n\n\n"); //blank space
     return 0;
 }

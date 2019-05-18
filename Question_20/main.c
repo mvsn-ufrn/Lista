@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &num);
 
     printf("\n\nDecompose of %d in prime factors is:\n", num);
-
+    //loop that will define the factors of decomposition
     while (num > 1){
 
         mult=0;
@@ -22,14 +22,15 @@ int main(){
         }
         if (mult != 0){
 
-            printf("%d x", fact);
+            printf("%d x ", fact);
+
 
         }
 
         fact++;
     }
 
-    printf("\n\n\n\n");
+    printf("\n\n\n\n"); //blank space
 
     return 0;
 }

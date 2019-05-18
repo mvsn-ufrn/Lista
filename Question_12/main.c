@@ -3,7 +3,7 @@
 
 int main() {
     int i, j, div, qtty=0,nump6=0, nump12=0, sub=0, count=2;
-
+       //loop that will test wich are the prime numbers 
     do{
         for(i = 0; i <= count; i++) {
 
@@ -27,7 +27,7 @@ int main() {
 
                     nump12=i;
 
-                    sub=nump12-nump6;
+                    sub=nump12-nump6; //equation that defines the difference
 
                     printf("the difference between the Twelfth and sixth prime number is: %d",sub);
 
@@ -41,7 +41,7 @@ int main() {
         }
     }while(qtty<12);
 
-    printf("\n\n\n\n");
+    printf("\n\n\n\n"); //blank space
 
     return 0;
 }

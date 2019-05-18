@@ -9,7 +9,7 @@ int main(){
     gets(text);
 
     size = strlen(text);
-
+    //loop that will define the quantity of words and characters
     for(count = 0; count < strlen(text); count++){
         if(text[count] == ' '){
             size--;
@@ -21,7 +21,7 @@ int main(){
     }
     printf("The number of characters is: %d\n",size);
     printf("the number of words is: %d", word);
-    printf("\n\n\n\n");
-
-
+    printf("\n\n\n\n"); //blank space
+   
+    return 0;
 }

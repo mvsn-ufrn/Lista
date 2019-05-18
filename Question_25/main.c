@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-int oc_char(char c) {
+int oc_char(char c) { //function that will return the quantity of characters typed
     if(c >= 65 && c <= 90) { // [A-Z]
         return 1;
     }
